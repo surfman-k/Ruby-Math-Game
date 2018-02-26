@@ -4,8 +4,8 @@ class Question
 	attr_accessor :int1
 	attr_accessor :int2
 
-	def initialize
-		@current_player = "Player 1"	
+	def initialize(player)
+		@current_player = player	
 	end
 
 	def new_question
